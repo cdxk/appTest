@@ -61,7 +61,7 @@ class myTests(unittest.TestCase):
             "//div[contains(@style,'transform: translate3d(0%, 0px, 0px); transition-duration: 0.3s;')]/div/div/ul/li")[
             1].click()
         sleep(2)
-        self.driver.find_element_by_xpath("//span[contains(.,'提交')]/../..").submit()
+        self.driver.find_element_by_xpath("//button[contains(@class,'btn van-button van-button--default van-button--normal')]").click()
 
 
 
