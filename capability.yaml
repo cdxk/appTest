@@ -1,0 +1,5 @@
+platformName: Android
+deviceName: 127.0.0.1:21503
+platformVersion: 7.1.2
+noReset: True
+browserName:Chrome

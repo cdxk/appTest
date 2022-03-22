@@ -20,7 +20,7 @@ class myTests(unittest.TestCase):
         cls.driver.quit()
 
     def test_chrome(self):
-        """打开h5页面"""
+        """打开h5页面，创建故障管理工单"""
         self.driver.get("http://pss-app-test.cddev.cddpi.com/#/")
         sleep(5)
         self.driver.find_element_by_xpath("//span[contains(.,'故障处置')]").click()

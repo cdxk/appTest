@@ -219,8 +219,8 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>Test Report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2022-02-09 15:17:04</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:53.287818</p>
+<p class='attribute'><strong>Start Time:</strong> 2022-03-21 11:29:13</p>
+<p class='attribute'><strong>Duration:</strong> 0:01:02.937380</p>
 <p class='attribute'><strong>Status:</strong> Pass 1</p>
 
 <p class='description'>Test Description</p>
@@ -273,7 +273,30 @@ function showOutput(id, name) {
 
 <tr id='pt1.1' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_chrome: 打开h5页面</div></td>
-    <td colspan='5' align='center'>pass</td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: exception
+&lt;appium.webdriver.webelement.WebElement (session="e9aa2373-f466-436e-bf1e-3e69d7aff8c3", element="0.42952657861690025-8")&gt;
+关闭时间控件
+孙阳
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
 </tr>
 
 <tr id='total_row'>
