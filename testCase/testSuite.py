@@ -1,11 +1,11 @@
 import os
 import unittest
-from util import get_path
+from config import get_path
 from common import HTMLTestRunner#,SendEmail
 
 
 # readExcel=readExcel.ReadExcel().read_excel(get_path.getPath()+'data/interfaces.xlsx','bi')
-getpath=get_path.getPath()
+getpath= get_path.getPath()
 resultHtml=os.path.join(getpath+'result')
 
 class TestSuite():
